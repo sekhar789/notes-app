@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-github-bg text-github-text;
+  background-color: #ffffff;
+}
+h1, h2, h3, h4, h5, h6 {
+  @apply text-github-text;
+}
+.btn {
+  @apply bg-github-button text-github-text border-none;
+}
+.btn:hover {
+  @apply bg-github-buttonHover;
+}
